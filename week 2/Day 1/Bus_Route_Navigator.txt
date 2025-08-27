@@ -1,0 +1,13 @@
+Pseudo-code: Bus Route Navigator
+1. Define LinkedList for bus stops
+
+2. Operations:
+    - Insertion: add new stop at position
+    - Deletion: remove stop from list
+    - Search: check if stop exists
+
+3. Example:
+    route = Depot -> Main Street -> City Mall -> Hospital -> Airport
+    insert(University after City Mall)
+    delete(Hospital)
+    search(Airport) -> found

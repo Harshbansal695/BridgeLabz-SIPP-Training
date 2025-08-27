@@ -1,0 +1,16 @@
+Pseudo-code: Movie Ticket Booking
+1. Define class Ticket
+    attributes: movie_name, seat_number, price, booking_status
+
+2. Define class Theatre
+    attributes: movie_schedules, available_seats
+    methods: issue_ticket(), cancel_ticket()
+
+3. Define class Customer
+    attributes: name
+    methods: browse_movies(), book_ticket(), cancel_ticket()
+
+4. Flow:
+    customer selects movie -> theatre checks seat availability
+    if available -> issue ticket and mark seat as booked
+    if cancel -> update seat availability
